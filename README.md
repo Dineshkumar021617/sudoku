@@ -14,7 +14,7 @@ Convert given string format into dictionary format.
 ### Step 3:
 Eliminate possible values for a box by looking at its peers.
 ### Step 4:
-Check whether any box which allows only a certain digit in the highlighted unit after elimination.
+Check whether any box which allows only a certain digit in the unit after elimination.
 ### Step 5:
 Repeat 3 and 4 until we get the solved puzzle.
 ### Step 6:
