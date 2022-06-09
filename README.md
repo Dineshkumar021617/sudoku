@@ -6,6 +6,9 @@ To develop a code to solve a sudoku puzzle using contraint propagation
 ## Theory:
 Sudoku consists of a 9x9 grid, and the objective is to fill the grid with digits in such a way that each row, each column, and each of the 9 principal 3x3 subsquares contains all of the digits from 1 to 9.
 
+## Sudoku puzzle:
+![Q](https://user-images.githubusercontent.com/75234807/172747215-f5437423-d101-49dd-aa4e-955518e37af5.png)
+
 ## Design Steps:
 ### Step 1:
 Take an unsolved sudoku puzzle and make it has a single string format.
@@ -113,7 +116,7 @@ def search(values):
             
     return values
 
-p='168...9.2...3.1....3.62......9...1.6..1...37..435....9...8.26.....9.5.232.6.3.7..'
+p='53..7....6..195....98....6.8...6...34..8.3..17...2...6.6....28....419..5....8..79'
 start_time = time.time()
 display(grid_values(p))
 p1=grid_values_improved(p)
@@ -127,7 +130,7 @@ print("\n\n{0} seconds".format(time_taken))
 ```
 
 ## Output:
-![Screenshot (224)](https://user-images.githubusercontent.com/75234807/172647144-9c07a2b1-8674-4455-8270-208c02e2c14d.png)
+![Screenshot (225)](https://user-images.githubusercontent.com/75234807/172747065-dece9048-fa71-4db0-b571-bd72e6683de5.png)
 
 ## Result:
 Thus, a program to solve sudoku puzzle using constraint propagation is implemented successfully.
